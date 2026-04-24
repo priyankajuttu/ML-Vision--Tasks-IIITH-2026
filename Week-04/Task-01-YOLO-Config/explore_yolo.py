@@ -3,8 +3,6 @@ import os
 
 
 yaml_path = r"C:\ML-Internship\venv\Lib\site-packages\ultralytics\cfg\datasets\coco128.yaml"
-
-
 with open(yaml_path, 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f)
 

@@ -1,0 +1,29 @@
+# Animal Detection Dataset
+# IIITH ML Internship 2026 - Priya
+
+path: C:\AnimalDataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 16
+
+# Class names from Label Studio
+names:
+  0: Airplane
+  1: Bird
+  2: Car
+  3: Cat
+  4: Cheetah
+  5: Cuban Knight Anole
+  6: Fish
+  7: Green Python
+  8: Insect
+  9: Kingfisher
+  10: Lion
+  11: Monkey
+  12: Parrot
+  13: Snake
+  14: Swan
+  15: animal

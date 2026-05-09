@@ -1,16 +1,2 @@
-Airplane
-Bird
-Car
-Cat
-Cheetah
-Cuban Knight Anole
-Fish
-Green Python
-Insect
-Kingfisher
-Lion
-Monkey
-Parrot
-Snake
-Swan
-animal
+bird
+lion

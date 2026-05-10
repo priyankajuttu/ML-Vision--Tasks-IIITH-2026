@@ -1,0 +1,13 @@
+# Car & Bus Detection Dataset
+# IIITH ML Internship 2026 - Priya
+
+path: C:/BikeDataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+
+names:
+  0: car
+  1: bus

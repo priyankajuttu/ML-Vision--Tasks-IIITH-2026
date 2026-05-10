@@ -1,0 +1,20 @@
+cd C:\LabelStudio
+venv-labelstudio\Scripts\activate
+python -c "
+content = '''# Animal Detection Dataset - 2 Classes
+# IIITH ML Internship 2026 - Priya
+
+path: C:/AnimalDataset
+train: images/train_scaled
+val: images/val_scaled
+
+nc: 2
+
+names:
+  0: bird
+  1: lion
+'''
+with open(r'C:/AnimalDataset/animal_dataset.yaml', 'w') as f:
+    f.write(content)
+print('YAML updated!')
+"

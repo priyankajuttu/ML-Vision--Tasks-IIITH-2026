@@ -19,7 +19,7 @@ detected_count = 0
 
 for i, img_file in enumerate(images):
     img_path = os.path.join(all_frames_dir, img_file)
-    results = model.predict(img_path, conf=0.1, classes=[2, 5], verbose=False)
+    results = model.predict(img_path, conf=0.6, classes=[2, 5], verbose=False)
     annotated = results[0].plot()
     out_path = os.path.join(output_dir, img_file)
     cv2.imwrite(out_path, annotated)
@@ -29,3 +29,7 @@ for i, img_file in enumerate(images):
         print(f"Processed {i+1}/{len(images)} | Detections: {detected_count}")
 
 print(f"Done! Frames with detections: {detected_count}")
+
+
+
+
